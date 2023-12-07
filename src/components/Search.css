@@ -1,0 +1,124 @@
+.search-container {
+  width: 80%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  }
+  
+.search-results {
+  top: 100%;  
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-radius: 5px;
+  display: block;
+  z-index: 5;
+}
+
+.search-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  width: 100%;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  color: black;
+  margin-top: 0%;
+  margin-bottom: 3px;
+}
+
+.search-item {
+  display: flex;
+  padding: 5px;
+  color: #000000;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #cecece;
+  cursor: pointer;
+}
+
+.search-item:hover {
+  background-color: #0095c786;
+}
+
+.search-item:first-child {
+  border-top: none;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.search-item:last-child {
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.search-item-image {
+  width: 60px; /* your desired width */
+  height: 80px; /* your desired height */
+  overflow: hidden; /* hide the overflow of the image */
+  display: flex; /* use flexbox to center the image vertically and horizontally */
+  justify-content: center; /* center horizontally */
+  align-items: center; /* center vertically */
+  margin-right: 10px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.search-item-details {
+  text-align: left;
+  width: 100%;
+}
+
+.search-item-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.search-item-year + .search-item-author {
+  font-size: 16px;
+  color:#474747;
+}
+
+
+.search-input {
+  padding-right: 32px; /* Space for the Search icon */
+}
+
+.search-icon {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  background-image: url("/search.png");
+  background-size: cover;
+  cursor: text;
+}
+
+.search-input::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  background-image: url("/search.png");
+  background-size: cover;
+}

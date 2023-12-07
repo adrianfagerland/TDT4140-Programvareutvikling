@@ -1,0 +1,30 @@
+.previewContainer {
+  width: 80%;
+  margin: auto;
+}
+
+
+.genreBookPreview {
+  background-color: #f0f0f063;
+  list-style: none;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 10px;
+  width: 30%;
+}
+
+.bookPreview {
+  width: 120px;
+  height: 160px;
+  margin: auto;
+  margin-bottom: 5%;
+}
+
+.titlePreview {
+  margin: 10px;
+  /* margin-bottom: 10px;
+  margin-top: 10px; */
+}

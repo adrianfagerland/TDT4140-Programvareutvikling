@@ -1,0 +1,11 @@
+{
+  "firestore": {
+    "rules": "firebase-config/firestore.rules",
+    "indexes": "firebase-config/firestore.indexes.json"
+  },
+  "hosting": {
+    "site": "ibdb-pu",
+    "public": "public"
+  }
+
+}

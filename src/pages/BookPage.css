@@ -1,0 +1,59 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.book { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin-top: 30px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.bookimg {
+    margin-right: 60px;
+    align-items: center;
+}
+
+.bookinfo {
+    flex: 1;
+    align-items: center;
+    width: 500px;
+}
+
+.bookinfo h1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.bookinfo h1 img {
+    width: 24px;
+    height: 24px;
+    margin-left: 1rem;
+  }
+
+
+.reviewmodal {
+    margin-bottom: 30px;
+    
+}
+
+.reviewmodal button {
+    margin-top: 50px;
+    background-color: #d1e4f8;
+    margin-left: 10px;
+}
+
+.reviewmodal button:hover {
+    background-color: #bbdafb;
+  }
+
+.author {
+    font-family: cursive;
+}

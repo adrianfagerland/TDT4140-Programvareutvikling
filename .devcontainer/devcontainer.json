@@ -1,0 +1,16 @@
+{
+	"name": "Node.js & TypeScript",
+	"image": "mcr.microsoft.com/devcontainers/typescript-node:0-18",
+	/* "features": {
+		"ghcr.io/devcontainers-contrib/features/firebase-cli:2": {
+			"version": "latest"
+		}
+	}, */
+
+	"runArgs": ["--env-file","./.env"],
+
+
+	"forwardPorts": [5173],
+
+	"postCreateCommand": "sudo bash ./.devcontainer/post-create-command.sh"
+}

@@ -1,0 +1,103 @@
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: fit-content;
+}
+
+.add-button {
+  display: flex;
+  align-items: center;
+  background-color: #0096c7;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 12px 24px;
+  margin-bottom: 10px;
+  /* Add margin-bottom for space between buttons */
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.add-button:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.button-text {
+  margin-right: 5px;
+}
+
+.button-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.parent-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  /* Adjust this value according to your needs */
+}
+
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.booklist {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  list-style: none;
+  padding: 0;
+  background-color: #f5f5f5;
+  margin: 20px 1% 0; /* add top margin and space between booklists */
+  padding: 0; /* remove default padding */
+  background-color: transparent; /* set background color to transparent */
+  font-family: inherit; /* inherit the font-family from the parent element */
+  font-size: inherit; /* inherit the font-size from the parent element */
+  overflow: hidden; /* add this to hide overflowing content */
+  border-radius: 5px;
+}
+
+.booklist table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 5px; /* move the border-radius from .booklist to table */
+}
+
+
+.booklist h2 {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  background-color: #0096C7;
+  color: white;
+}
+
+.booklist th,
+.booklist td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.booklist th {
+  background-color: #0096C7;
+  color: white;
+  font-weight: bold;
+}
+
+.booklist td:hover {
+  background-color: #ebebeb;
+  cursor: pointer;
+}

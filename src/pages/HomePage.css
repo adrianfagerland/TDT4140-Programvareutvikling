@@ -1,0 +1,41 @@
+.topPage {
+    align-items: center;
+    width: 675px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: auto;
+  }
+
+  .bestBooks {
+    align-items: center;
+    align-content: center;
+    margin-top: 50px;
+  }
+
+  .bestAuthor {
+    align-items: center;
+    align-content: center;
+  }
+  
+  .sideBar {
+    position: absolute;
+    width: 24%;
+    height: 100%;
+    right: 10%;
+    
+    border-style: groove;
+    border-color: #CAF0F8;
+    border-width: 2px;
+  }
+  
+  .midPage {
+    position: absolute; 
+    width: 80%;
+    height: 30%;
+    top: 70%;
+    right: 10%;
+    left: 10%;
+    background-color: #CAF0F8;
+    color: black;
+  }
